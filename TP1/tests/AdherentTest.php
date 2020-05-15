@@ -9,7 +9,7 @@ final class AdherentTest extends TestCase
     {
         $this->assertInstanceOf(
             Adherent::class,
-            Adherent::fromString('jean pierre dupont')
+            Adherent::fromString('jean pierre', 'dupont', '15/12/1990')
         );
     }
 
